@@ -1,13 +1,8 @@
 <component name="ArtifactManager">
-  <artifact name="NotePad:jar">
+  <artifact type="jar" name="NotePad:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/NotePad_jar</output-path>
-    <root id="root">
-      <element id="archive" name="NotePad.jar">
-        <element id="directory" name="META-INF">
-          <element id="file-copy" path="$USER_HOME$/META-INF/MANIFEST.MF" />
-        </element>
-        <element id="module-output" name="NotePad" />
-      </element>
+    <root id="archive" name="NotePad.jar">
+      <element id="module-output" name="NotePad" />
     </root>
   </artifact>
 </component>
